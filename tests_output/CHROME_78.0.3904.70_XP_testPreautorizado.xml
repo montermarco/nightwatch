@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="1"
+            tests="1">
+
+  <testsuite name="testPreautorizado"
+    errors="5" failures="1" hostname="" id="" package="testPreautorizado" skipped="0"
+    tests="1" time="36.88" timestamp="">
+  
+    <testcase name="login preautorizado" classname="testPreautorizado" time="36.88" assertions="1">  <failure message="Testing if the URL contains &#34;http://localhost:8180/portal-app/Portal/index.xhtml&#34; in 1000 ms. - expected [0;32m&#34;http://localhost:8180/portal-app/Portal/index.xhtml&#34;[0m but got: [0;31m&#34;http://localhost:8180/portal-app/Portal/iniciar-sesion.xhtml&#34;[0m">    at Object.login preautorizado (/home/marcomonter/personal/nightwatch/browserStack/tests/testPreautorizado.js:18:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.login preautorizado (/home/marcomonter/personal/nightwatch/browserStack/tests/testPreautorizado.js:18:17)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

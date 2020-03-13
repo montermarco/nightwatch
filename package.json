@@ -1,0 +1,22 @@
+{
+  "name": "browserStack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "test:browserstack": "nightwatch -c nightwatch.browserstack.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack-local": "^1.4.2",
+    "nightwatch": "^1.2.4"
+  },
+  "devDependencies": {
+    "chromedriver": "^78.0.1",
+    "dotenv": "^8.2.0",
+    "geckodriver": "^1.19.1"
+  }
+}
