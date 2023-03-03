@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "browserstack-local": "^1.4.2",
-    "nightwatch": "^1.2.4"
+    "nightwatch": "^1.7.13"
   },
   "devDependencies": {
     "chromedriver": "^78.0.1",
